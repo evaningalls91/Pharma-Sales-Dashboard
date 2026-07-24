@@ -7,6 +7,8 @@ An interactive Power BI report analyzing pharmaceutical sales across products, d
 ### 1. Executive Summary
 A high-level overview of overall sales performance.
 
+![Executive Summary](Pharma1.PNG)
+
 - **KPI cards** — Total Sales, Products Sold, Top Product Class, Top City, and Top Product Name.
 - **Sales Trajectory** — sales trend over time.
 - **Product Types Selling** — sales by product class (Analgesics, Antiseptics, Mood Stabilizers, Antipiretics, Antibiotics, Antimalarial).
@@ -18,6 +20,8 @@ A high-level overview of overall sales performance.
 ### 2. Distributors and Customer Analysis
 Supply-side and demand-side relationship analysis, with a month slicer.
 
+![Distributors and Customer Analysis](Pharma2.PNG)
+
 - **Where do we get our Products?** — sales sourced by distributor.
 - **What Countries are we Selling to?** — country distribution (Germany vs. Poland).
 - **Who are our Best Customers?** — top customers by revenue.
@@ -27,17 +31,13 @@ Supply-side and demand-side relationship analysis, with a month slicer.
 ### 3. Sales Team Performance
 Performance breakdown across teams and individuals.
 
+![Sales Team Performance](Pharma3.PNG)
+
 - **What is Each Team Selling?** — product-class mix per team (100% stacked bar).
 - **Annual Sales by Team** — yearly sales by team.
 - **Top Performers** — leading Sales Representatives and Sales Managers by revenue.
 - **Median Sale** — median Quantity, Price, and Revenue per transaction.
 - **What Products does each Team Sell?** — team-by-product-class revenue matrix with totals.
-
-## Screenshots
-
-| Executive Summary | Distributors & Customers | Sales Team Performance |
-|---|---|---|
-| ![Executive Summary](Pharma1.PNG) | ![Distributors and Customer Analysis](Pharma2.PNG) | ![Sales Team Performance](Pharma3.PNG) |
 
 ## Key Features
 
