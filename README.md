@@ -8,7 +8,7 @@ An interactive Power BI report analyzing pharmaceutical sales across products, d
 
 A high-level overview of overall sales performance.
 
-![Executive Summary](Screenshots\Pharma1.PNG)
+![Executive Summary](Screenshots/Pharma1.PNG)
 
 - **KPI cards** — Total Sales, Products Sold, Top Product Class, Top City, and Top Product Name.
 - **Sales Trajectory** — sales trend over time.
@@ -22,7 +22,7 @@ A high-level overview of overall sales performance.
 
 Supply-side and demand-side relationship analysis, with a month slicer.
 
-![Distributors and Customer Analysis](Screenshots\Pharma2.PNG)
+![Distributors and Customer Analysis](Screenshots/Pharma2.PNG)
 
 - **Where do we get our Products?** — sales sourced by distributor.
 - **What Countries are we Selling to?** — country distribution (Germany vs. Poland).
@@ -34,7 +34,7 @@ Supply-side and demand-side relationship analysis, with a month slicer.
 
 Performance breakdown across teams and individuals.
 
-![Sales Team Performance](Screenshots\Pharma3.PNG)
+![Sales Team Performance](Screenshots/Pharma3.PNG)
 
 - **What is Each Team Selling?** — product-class mix per team (100% stacked bar).
 - **Annual Sales by Team** — yearly sales by team.
@@ -74,9 +74,9 @@ The report is built on pharmaceutical sales transactions with dimensions includi
 | File                            | Description                                   |
 | ------------------------------- | --------------------------------------------- |
 | `Pharmaceuticals Analysis.pbix` | The Power BI report file                      |
-| `Pharma1.PNG`                   | Executive Summary screenshot                  |
-| `Pharma2.PNG`                   | Distributors and Customer Analysis screenshot |
-| `Pharma3.PNG`                   | Sales Team Performance screenshot             |
+| `Screenshots/Pharma1.PNG`       | Executive Summary screenshot                  |
+| `Screenshots/Pharma2.PNG`       | Distributors and Customer Analysis screenshot |
+| `Screenshots/Pharma3.PNG`       | Sales Team Performance screenshot             |
 
 ## Author
 
