@@ -1,4 +1,4 @@
-# Pharmaceuticals Sales Analysis — Power BI Dashboard
+# Pharmaceuticals Sales Analysis Power BI Dashboard
 
 An interactive Power BI report analyzing pharmaceutical sales across products, distributors, customers, geographies, and internal sales teams. The dashboard turns raw transactional data (~$12bn in sales, 254K products sold) into decision-ready views for executives, account managers, and sales leadership.
 
@@ -10,13 +10,13 @@ A high-level overview of overall sales performance.
 
 ![Executive Summary](Screenshots/Pharma1.PNG)
 
-- **KPI cards** — Total Sales, Products Sold, Top Product Class, Top City, and Top Product Name.
-- **Sales Trajectory** — sales trend over time.
-- **Product Types Selling** — sales by product class (Analgesics, Antiseptics, Mood Stabilizers, Antipiretics, Antibiotics, Antimalarial).
-- **Best Selling Cities** — geographic bubble map across Europe.
-- **How are we Reaching Patients?** — sales split by sub-channel (Hospital vs. Pharmacy) by year.
-- **Team Sales** — annual sales comparison across the four sales teams (Alfa, Bravo, Charlie, Delta).
-- **Channels** — sales distribution by channel (Government, Institution, Private, Retail).
+- **KPI cards** show Total Sales, Products Sold, Top Product Class, Top City, and Top Product Name.
+- **Sales Trajectory** tracks the sales trend over time.
+- **Product Types Selling** breaks down sales by product class (Analgesics, Antiseptics, Mood Stabilizers, Antipiretics, Antibiotics, Antimalarial).
+- **Best Selling Cities** plots a geographic bubble map across Europe.
+- **How are we Reaching Patients?** splits sales by sub-channel (Hospital vs. Pharmacy) by year.
+- **Team Sales** compares annual sales across the four sales teams (Alfa, Bravo, Charlie, Delta).
+- **Channels** shows sales distribution by channel (Government, Institution, Private, Retail).
 
 ### 2. Distributors and Customer Analysis
 
@@ -24,11 +24,11 @@ Supply-side and demand-side relationship analysis, with a month slicer.
 
 ![Distributors and Customer Analysis](Screenshots/Pharma2.PNG)
 
-- **Where do we get our Products?** — sales sourced by distributor.
-- **What Countries are we Selling to?** — country distribution (Germany vs. Poland).
-- **Who are our Best Customers?** — top customers by revenue.
-- **What Channels are Distributors Using?** — distributor-by-channel matrix (Government, Institution, Private, Retail) with totals.
-- **Best Selling Cities** — geographic bubble map.
+- **Where do we get our Products?** ranks sales sourced by distributor.
+- **What Countries are we Selling to?** shows country distribution (Germany vs. Poland).
+- **Who are our Best Customers?** ranks top customers by revenue.
+- **What Channels are Distributors Using?** presents a distributor-by-channel matrix (Government, Institution, Private, Retail) with totals.
+- **Best Selling Cities** plots a geographic bubble map.
 
 ### 3. Sales Team Performance
 
@@ -36,29 +36,29 @@ Performance breakdown across teams and individuals.
 
 ![Sales Team Performance](Screenshots/Pharma3.PNG)
 
-- **What is Each Team Selling?** — product-class mix per team (100% stacked bar).
-- **Annual Sales by Team** — yearly sales by team.
-- **Top Performers** — leading Sales Representatives and Sales Managers by revenue.
-- **Median Sale** — median Quantity, Price, and Revenue per transaction.
-- **What Products does each Team Sell?** — team-by-product-class revenue matrix with totals.
+- **What is Each Team Selling?** shows the product-class mix per team (100% stacked bar).
+- **Annual Sales by Team** compares yearly sales by team.
+- **Top Performers** highlights the leading Sales Representatives and Sales Managers by revenue.
+- **Median Sale** reports median Quantity, Price, and Revenue per transaction.
+- **What Products does each Team Sell?** presents a team-by-product-class revenue matrix with totals.
 
 ## Key Features
 
 - **Cross-page slicers** for interactive, drill-down filtering.
 - **Geospatial mapping** of sales concentration across European cities.
 - **Multi-dimensional analysis** across products, channels, distributors, customers, geographies, and teams.
-- **Time-based trends** spanning 2017–2020.
+- **Time-based trends** spanning 2017 to 2020.
 
 ## Data Model
 
 The report is built on pharmaceutical sales transactions with dimensions including:
 
-- **Product** — Product Class and Product Name
-- **Geography** — Country and City
-- **Channel** — Government, Institution, Private, Retail (with Hospital / Pharmacy sub-channels)
+- **Product**: Product Class and Product Name
+- **Geography**: Country and City
+- **Channel**: Government, Institution, Private, Retail (with Hospital / Pharmacy sub-channels)
 - **Distributor** and **Customer**
-- **Sales Team** — Alfa, Bravo, Charlie, Delta — with Sales Representatives and Sales Managers
-- **Date** — spanning 2017–2020
+- **Sales Team**: Alfa, Bravo, Charlie, Delta, with Sales Representatives and Sales Managers
+- **Date**: spanning 2017 to 2020
 
 > Note: The dataset is sample/synthetic data used for demonstration purposes.
 
